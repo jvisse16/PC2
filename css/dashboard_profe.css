@@ -1,0 +1,55 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f6f6f6; /* Color de fondo más suave */
+    transition: background-color 0.5s ease; /* Animación de cambio de color de fondo */
+}
+
+h1 {
+    margin-top: 0;
+    color: #333; /* Color de texto oscuro */
+    text-align: center; /* Centrar el texto */
+}
+
+.course-card {
+    background-color: #fff; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    padding: 20px; /* Espaciado interno */
+    margin-bottom: 20px; 
+    transition: box-shadow 0.3s ease; 
+}
+
+.course-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.course-card h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #007bff; /* Color azul para los títulos */
+}
+
+.course-card button {
+    background-color: #007bff; /* Color de fondo azul */
+    color: #fff; /* Color de texto blanco */
+    border: none; /* Sin borde */
+    padding: 8px 16px; 
+    border-radius: 5px; 
+    cursor: pointer; /* Cursor apuntador */
+    transition: background-color 0.3s ease; 
+}
+
+.course-card button:hover {
+    background-color: #0056b3; 
+}
+
+.course-card .description {
+    display: none; 
+}
+
+.course-card.active .description {
+    display: block; 
+    margin-top: 10px; 
+}

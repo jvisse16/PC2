@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f6f6f6; 
+    transition: background-color 0.5s ease; 
+}
+
+h1 {
+    margin-top: 0;
+    color: #333; 
+}
+
+.profile-section, .survey-section {
+    margin-bottom: 30px;
+    background-color: #fff; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    padding: 20px; 
+    transition: box-shadow 0.3s ease; 
+}
+
+.profile-section:hover, .survey-section:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.survey-section label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.survey-section input[type="radio"] {
+    margin-right: 10px;
+ 
+    transform: scale(1.5); 
+    vertical-align: middle; 
+    border: 2px solid #007bff; 
+    border-radius: 50%; 
+    width: 20px; 
+    height: 20px; 
+    transition: transform 0.3s ease, border-color 0.3s ease; 
+}
+
+.survey-section input[type="radio"]:checked {
+    background-color: #007bff; 
+}
+
+.survey-section input[type="radio"]:hover {
+    transform: scale(1.6); 
+    border-color: #0056b3; 
+}
+
+.survey-section button[type="submit"] {
+    background-color: #555; 
+    color: #fff; 
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.5s ease; 
+}
+
+.survey-section button[type="submit"]:hover {
+    background-color: #777; 
+}
